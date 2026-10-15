@@ -3,5 +3,10 @@ spring:
   application:
     name: auth-service
 
+  datasource:
+    url: jdbc:mysql://localhost:5433/auth_dev
+    username: auth
+    password: auth
+
 server:
   port: 8081
